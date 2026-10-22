@@ -1,0 +1,58 @@
+[
+ {
+  "name": "tour",
+  "title": "tour",
+  "blurb": "A short program written to be watched. Every idea worth understanding shows up once, in order.",
+  "cores": 1,
+  "cycles": 248,
+  "total": 248
+ },
+ {
+  "name": "hazards",
+  "title": "hazards",
+  "blurb": "A dependency chain, a load-use bubble and a multi-cycle divide.",
+  "cores": 1,
+  "cycles": 231,
+  "total": 231
+ },
+ {
+  "name": "branches",
+  "title": "branches",
+  "blurb": "Loops the predictor finds easy, hard and impossible, plus a call in a loop for the return-address stack.",
+  "cores": 1,
+  "cycles": 981,
+  "total": 981
+ },
+ {
+  "name": "cache",
+  "title": "cache",
+  "blurb": "Sequential, reuse, conflict and strided access patterns, so you can watch lines fill, hit and thrash.",
+  "cores": 1,
+  "cycles": 1400,
+  "total": 9276
+ },
+ {
+  "name": "sort",
+  "title": "sort",
+  "blurb": "Insertion sort over 16 words: real data-dependent branches.",
+  "cores": 1,
+  "cycles": 1555,
+  "total": 1555
+ },
+ {
+  "name": "interrupt",
+  "title": "interrupt",
+  "blurb": "A timer interrupt arrives mid-loop. The pipeline drains, the handler runs, and mret puts everything back.",
+  "cores": 1,
+  "cycles": 1600,
+  "total": 5060
+ },
+ {
+  "name": "spinlock",
+  "title": "spinlock",
+  "blurb": "Four cores contending for one lock line, handed between caches one owner at a time.",
+  "cores": 4,
+  "cycles": 1400,
+  "total": 3780
+ }
+]
